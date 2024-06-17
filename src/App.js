@@ -6,10 +6,10 @@ import Body from "./components/Body";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Body />
-    </>
+    </div>
   );
 };
 root.render(<App />);

@@ -25,19 +25,21 @@
 }
 #navItems li:hover {
   transform: scale(1.1);
-  transition: 0.3s ease-in-out;
+  transition: 0.15s ease-in-out;
   cursor: pointer;
 }
 
 /*Cards*/
 #cards {
-  padding: 0 2rem;
-  margin-top: 2rem;
+  /* padding: 2em; */
+  /* margin-top: 2rem; */
+  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 1rem;
   flex-wrap: wrap;
-  /* width: 100vw; */
+  /* border: 1px solid red; */
+  width: 80%;
 }
 .card {
   padding: 1rem;
@@ -54,7 +56,7 @@
 }
 .card:hover {
   transform: scale(1.02);
-  transition: 0.3s ease;
+  transition: 0.15s ease;
   cursor: pointer;
 }
 .card img {

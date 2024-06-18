@@ -14,7 +14,7 @@ const Body = () => {
     );
     const res = await data.json();
     setRestaurants(
-      res.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+      res?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
   const imgURL =
@@ -48,7 +48,6 @@ const Body = () => {
                 <img
                   src={imgURL + rest.info.cloudinaryImageId}
                   alt="company-logo"
-                  //   width={200}
                 ></img>
                 <div id="cardDetails">
                   <div>{rest.info.name}</div>

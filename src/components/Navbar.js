@@ -6,7 +6,7 @@ const Navbar = () => {
       <img
         src={require("../../public/foodees-high-resolution-logo-transparent.png")}
         alt="company-logo"
-        width={80}
+        width={50}
       />
       <div>
         <ul id="navItems">
